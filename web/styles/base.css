@@ -11,4 +11,11 @@ body {
   justify-content: center;
 
   background-color: #121214;
+  color: #fff;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
 }
