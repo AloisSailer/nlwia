@@ -22,4 +22,5 @@ export const download = (videoId) => {
         error
       )
     })
+    .pipe(fs.createWriteStream("./temp/audio.mp4"))
 }
